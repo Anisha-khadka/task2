@@ -1,0 +1,176 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* header */
+
+header {
+  width: 100%;
+}
+.navbar {
+  padding-left: 55px;
+  float: left;
+}
+
+.navbar ul {
+  padding-top: 20px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.navbar ul li {
+  padding: 0px 10px;
+}
+.sidenavbar {
+  float: right;
+  display: flex;
+  padding-right: 50px;
+}
+.sidenavbar div i {
+  padding: 35px 20px;
+}
+.btn1 {
+  margin-top: 20px;
+  margin-right: 15px;
+  padding: 8px;
+  background-color: #0fafe9;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+}
+
+/* otherplugins */
+.content-plugs {
+  clear: both;
+  margin: 40px 60px;
+  padding-top: 30px;
+  overflow: hidden;
+}
+.content-plugs-head{
+    display: flex ;
+    justify-content: space-between;
+}
+.content-plugs-head p{
+    color: #0fafe9;
+}
+
+.plugscontainer {
+  margin-top: 20px;
+  display: grid;
+  column-gap: 20px;
+  row-gap: 10px;
+  grid-template-columns: auto auto auto auto;
+}
+.grid-item {
+  width: 100%;
+}
+.grid-item img {
+  border-radius: 10px;
+}
+
+.grid-body {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.grid-body p {
+  color: gray;
+}
+.grid-body price {
+  margin-top: 25px;
+  padding: 0px 5px;
+  background-color: #e7f7fd;
+  color: #0fafe9;
+}
+
+/* thirdcontainer */
+
+/* leftside */
+.containerthird {
+  width: 100%;
+  height: 60vh;
+  display: flex; 
+  background-color: #e7f7fd;
+ 
+}
+.containerthird1{
+    padding-left: 55px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+.containerthird1 h1 {
+  color: #0fafe9;
+}
+.btn2 {
+  display: flex;
+}
+
+.btn2 p {
+  padding-top: 26px;
+}
+ 
+/* rightside */
+
+.containerthird2{
+    display: flex;
+    padding-left:265px;
+     overflow: hidden;
+}
+.containerthird2 img{
+    width: 390px;
+    padding-top: 40px;
+}
+.containerthird2 .img2{
+    padding-top: 50px;
+
+}
+
+/* footer */
+
+.footer{
+    width: 100%;
+    height: 50vh;
+   
+    
+}
+.up{
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 120px 106px 0px 106px;
+}
+.up h6{
+  font-size: 16px;
+  font-weight: bold;
+}
+.up ul{
+    list-style: none;
+}
+.up ul li{
+    padding-top: 3px;
+}
+.up div{
+    display: flex;
+    flex-direction: column;
+}
+
+.up2{
+    padding-top: 20px;
+}
+
+
+/* downpart */
+.down{
+    border:1px solid rgb(210, 206, 206);
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin-top:100px;
+    padding:25px 70px 10px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.down div i{
+    padding: 5px;
+}
